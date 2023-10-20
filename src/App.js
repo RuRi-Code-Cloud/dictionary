@@ -12,7 +12,10 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>Coded by Rita Rudzite</footer>
+      <footer>
+        Coded by Rita Rudzite open-sourced on{" "}
+        <a href="https://github.com/RuRi-Code-Cloud/dictionary">GitHub</a>{" "}
+      </footer>
     </div>
   );
 }
