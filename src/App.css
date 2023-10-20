@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  max-width: 150px;
+  margin: 0 auto;
+}
+.heading {
+  text-transform: uppercase;
+  border: 1px solid black;
+}
