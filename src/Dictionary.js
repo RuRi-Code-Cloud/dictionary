@@ -8,14 +8,15 @@ export default function Dicrionary() {
   let [results, setResults] = useState(null);
 
   function showResponse(response) {
-    setResults(response.data[0]);
+    console.log(response.data);
+    setResults(response.data);
   }
 
   function search(event) {
     event.preventDefault();
-
-    // documentation: https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    let word = keyword;
+    let key = "2b03bfeb040ctdb92faf2af53622202o";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${key}`;
     axios.get(apiUrl).then(showResponse);
   }
 
