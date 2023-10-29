@@ -1,6 +1,7 @@
 import React from "react";
 import "./Results.css";
 import Meanings from "./Meanings";
+import background from "./background.jpg";
 import { BallTriangle } from "react-loader-spinner";
 
 export default function Results(props) {
@@ -8,7 +9,13 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section>
+        <section
+          style={{
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        >
           <h1>{props.results.word}</h1>
           <p>-{props.results.phonetic}-</p>
         </section>
