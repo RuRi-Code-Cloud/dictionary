@@ -1,0 +1,35 @@
+.Dictionary input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(175, 131, 190);
+  text-align: center;
+  font-size: 20px;
+}
+a {
+  color: rgb(178, 146, 207);
+}
+.Dictionary section {
+  background: rgb(176, 155, 190);
+  background: radial-gradient(
+    circle,
+    rgb(230, 212, 241) 0%,
+    rgb(196, 185, 205) 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+  margin: 20px 25%;
+}
+.Dictionary .suggestion {
+  margin-top: 10px;
+  color: white;
+}
+.antonyms-color {
+  color: rgb(201, 118, 242);
+  text-transform: uppercase;
+}
+.synonyms-color {
+  color: rgb(118, 81, 155);
+  text-transform: uppercase;
+}

@@ -26,10 +26,25 @@ export default function Dicrionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" autoFocus="on" onChange={keywordChange} />
-      </form>
+      <section>
+        <form onSubmit={search} className="search-bar">
+          <input
+            type="search"
+            placeholder="Choose a word"
+            autoFocus="on"
+            onChange={keywordChange}
+          />
+        </form>
+        <div className="suggestion">
+          {" "}
+          <strong>Try</strong>: sunset, wine, happy, together..
+        </div>
+      </section>
       <Results results={results} />
+      <div>
+        <span className="antonyms-color">antonyms</span>-
+        <span className="synonyms-color">synonyms</span>
+      </div>
     </div>
   );
 }

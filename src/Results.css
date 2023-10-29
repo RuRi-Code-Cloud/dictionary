@@ -1,3 +1,12 @@
-.Results {
-  text-align: start;
+.loader {
+  position: relative;
+  top: 42%;
+  left: 42%;
+  padding: 50px;
+}
+section {
+  text-align: center;
+}
+section h1 {
+  text-transform: uppercase;
 }
