@@ -7,12 +7,13 @@
   font-size: 20px;
 }
 a {
-  color: rgb(178, 146, 207);
+  color: rgb(207, 165, 146);
 }
 .Dictionary section {
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+  background-color: rgba(253, 249, 249, 0.359);
+  box-shadow: 0 20px 30px rgb(0 0 0 / 40%);
   margin: 20px 10%;
 }
 .Dictionary .suggestion {
@@ -20,10 +21,10 @@ a {
   color: white;
 }
 .antonyms-color {
-  color: rgb(201, 118, 242);
+  color: rgb(206, 194, 211);
   text-transform: uppercase;
 }
 .synonyms-color {
-  color: rgb(118, 81, 155);
+  color: rgb(233, 153, 119);
   text-transform: uppercase;
 }

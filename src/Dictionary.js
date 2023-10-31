@@ -3,7 +3,6 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
-import background from "./background.jpg";
 
 export default function Dicrionary() {
   let [keyword, setKeyword] = useState("");
@@ -37,13 +36,7 @@ export default function Dicrionary() {
 
   return (
     <div className="Dictionary">
-      <section
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
+      <section>
         <form onSubmit={search} className="search-bar">
           <input
             type="search"

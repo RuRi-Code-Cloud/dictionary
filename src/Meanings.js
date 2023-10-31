@@ -1,19 +1,12 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 import "./Meaning.css";
-import background from "./background.jpg";
 
 export default function Meanings(props) {
   if (props.meanings) {
     return (
       <div className="Meanings">
-        <section
-          style={{
-            backgroundImage: `url(${background})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-        >
+        <section>
           <h4>{props.meanings.partOfSpeech}</h4>
           <p>
             {" "}
